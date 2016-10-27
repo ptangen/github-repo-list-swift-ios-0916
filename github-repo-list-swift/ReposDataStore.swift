@@ -9,7 +9,11 @@
 import UIKit
 
 class ReposDataStore {
-    
+
     static let sharedInstance = ReposDataStore()
+    private init(){}
+    
+    var repositories:[[String:String]] = []
+    
     
 }
